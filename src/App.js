@@ -6,6 +6,7 @@ function App() {
     <div className="App">
      <NavBar />
      <ItemListContainer greeting={'Siempre tan cool'}/>
+     <itemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantidad agregada',quantity) }/>
     </div>
   );
 
